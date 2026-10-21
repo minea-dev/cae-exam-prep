@@ -49,10 +49,19 @@
             </div>
         </div>
 
+        <!-- STUDY CATEGORY MENU -->
+        <div id="view-study-category" class="hidden">
+            <button onclick="loadStudyMenu()" class="text-red-700 mb-4 font-bold">&larr; Back to Topics</button>
+            <h2 id="study-category-title" class="text-xl font-bold mb-4">Select a Category</h2>
+            <div id="study-categories-list" class="space-y-2">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+
         <!-- STUDY FLASHCARDS VIEW -->
         <div id="view-study-cards" class="hidden">
             <div class="flex justify-between items-center mb-4">
-                <button onclick="loadStudyMenu()" class="text-red-700 font-bold">&larr; Back</button>
+                <button onclick="showCategoryMenu()" class="text-red-700 font-bold">&larr; Back to Categories</button>
                 <span id="study-progress" class="text-sm font-bold text-gray-500">1 / 10</span>
             </div>
             <div class="flex justify-between items-center mb-2">
@@ -85,12 +94,12 @@
         <div id="view-test-config" class="hidden">
             <button onclick="showMenu()" class="text-red-700 mb-4 font-bold">&larr; Back</button>
             <h2 class="text-xl font-bold mb-4">Configure Exam</h2>
-            <p class="text-sm text-gray-600 mb-4">Select 1 topic for a full review, or multiple topics for a 30-question mixed mock exam.</p>
+            <p class="text-sm text-gray-600 mb-4">Select topics for a 30-question mixed mock exam. Questions will be drawn proportionally from your selections.</p>
             <div id="test-topics-list" class="space-y-2 mb-6 bg-white p-4 rounded-xl shadow">
                 <!-- Injected via JS -->
             </div>
             <button id="btn-start-test" onclick="startTest()" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 rounded-lg shadow disabled:opacity-50 disabled:cursor-not-allowed">
-                Start Exam
+                Start Exam (Max 30 Random Questions)
             </button>
         </div>
 
@@ -121,6 +130,7 @@
     <script>
         // --- GLOBAL STATE ---
         let topicsCatalog = [];
+        let currentTopicData = null; // Store entire topic data for sub-menu navigation
         let currentStudyCards = [];
         let studyIndex = 0;
 
@@ -169,18 +179,44 @@
         async function initStudySession(topicMeta) {
             try {
                 const res = await fetch(topicMeta.file);
-                const data = await res.json();
-                currentStudyCards = data.study;
-                studyIndex = 0;
+                currentTopicData = await res.json();
 
-                document.getElementById('study-topic-title').innerText = data.title;
-                renderStudyCard();
+                // Extract unique categories from the study array
+                const categories = [...new Set(currentTopicData.study.map(card => card.category))];
+                
+                document.getElementById('study-category-title').innerText = currentTopicData.title;
+                const list = document.getElementById('study-categories-list');
+                list.innerHTML = '';
+
+                categories.forEach(cat => {
+                    const btn = document.createElement('button');
+                    btn.className = "w-full text-left p-4 rounded-lg border flex justify-between items-center bg-white hover:bg-red-50 border-gray-200";
+                    btn.innerHTML = `<span class="font-bold">${cat}</span> <span>▶</span>`;
+                    btn.onclick = () => loadStudyCards(cat);
+                    list.appendChild(btn);
+                });
 
                 hideAllViews();
-                document.getElementById('view-study-cards').classList.remove('hidden');
+                document.getElementById('view-study-category').classList.remove('hidden');
             } catch(e) {
                 alert("Could not load topic information.");
             }
+        }
+
+        function showCategoryMenu() {
+            hideAllViews();
+            document.getElementById('view-study-category').classList.remove('hidden');
+        }
+
+        function loadStudyCards(category) {
+            currentStudyCards = currentTopicData.study.filter(card => card.category === category);
+            studyIndex = 0;
+            
+            document.getElementById('study-topic-title').innerText = currentTopicData.title;
+            renderStudyCard();
+
+            hideAllViews();
+            document.getElementById('view-study-cards').classList.remove('hidden');
         }
 
         function renderStudyCard() {
@@ -214,7 +250,6 @@
                 if(!topic.active) return;
                 const label = document.createElement('label');
                 label.className = "flex items-center space-x-3 p-3 border-b border-gray-100 last:border-0 cursor-pointer";
-                // Añadido onchange="updateTestButtonText()"
                 label.innerHTML = `
                     <input type="checkbox" onchange="updateTestButtonText()" checked id="chk-${i}" class="w-5 h-5 text-green-600 rounded focus:ring-green-500" value="${topic.file}">
                     <span class="font-medium text-gray-700">${topic.title}</span>
@@ -222,24 +257,20 @@
                 list.appendChild(label);
             });
             document.getElementById('view-test-config').classList.remove('hidden');
-            updateTestButtonText(); // Inicializa el texto del botón al cargar
+            updateTestButtonText(); 
         }
 
-        // Nueva función para actualizar el texto del botón según la selección
         function updateTestButtonText() {
             const checkboxes = document.querySelectorAll('#test-topics-list input[type="checkbox"]:checked');
             const btn = document.getElementById('btn-start-test');
-            
-            if (!btn) return; // Por si acaso no le pusiste el id al botón en el HTML
-            
+
+            if (!btn) return; 
+
             if (checkboxes.length === 0) {
                 btn.innerText = "Select at least one topic";
                 btn.disabled = true;
-            } else if (checkboxes.length === 1) {
-                btn.innerText = "Start Exam (All Topic Questions)";
-                btn.disabled = false;
             } else {
-                btn.innerText = "Start Exam (30 Random Questions Mix)";
+                btn.innerText = "Start Exam (Max 30 Random Questions)";
                 btn.disabled = false;
             }
         }
@@ -250,12 +281,11 @@
 
             let topicPools = [];
 
-            // 1. Cargar las preguntas y separarlas por tema
+            // 1. Fetch questions, label them with topic, and shuffle each topic's pool
             for (let chk of checkboxes) {
                 const res = await fetch(chk.value);
                 const data = await res.json();
-                
-                // Añadir el título del tema a cada pregunta y desordenar ese bloque
+
                 let questions = data.test.map(q => ({...q, _topicTitle: data.title}));
                 questions = questions.sort(() => Math.random() - 0.5); 
                 topicPools.push(questions);
@@ -263,26 +293,21 @@
 
             let finalQuestions = [];
 
-            // 2. Lógica de selección según la cantidad de temas marcados
-            if (checkboxes.length === 1) {
-                // Si es 1 tema: metemos todas sus preguntas
-                finalQuestions = topicPools[0];
-            } else {
-                // Si es >1 tema: extraemos 1 de cada tema de forma circular hasta llegar a 30
-                let keepPulling = true;
-                while (finalQuestions.length < 30 && keepPulling) {
-                    keepPulling = false;
-                    for (let i = 0; i < topicPools.length; i++) {
-                        if (finalQuestions.length >= 30) break; // Tope de 30 preguntas
-                        if (topicPools[i].length > 0) {
-                            finalQuestions.push(topicPools[i].pop());
-                            keepPulling = true; 
-                        }
+            // 2. Round-robin selection: guarantees proportional representation across all selected topics up to 30 max
+            let keepPulling = true;
+            while (finalQuestions.length < 30 && keepPulling) {
+                keepPulling = false;
+                for (let i = 0; i < topicPools.length; i++) {
+                    if (finalQuestions.length >= 30) break; // Hard cap at 30
+                    if (topicPools[i].length > 0) {
+                        finalQuestions.push(topicPools[i].pop());
+                        keepPulling = true; 
                     }
                 }
-                // Mezclamos el mix final para que no salgan ordenadas por tema
-                finalQuestions = finalQuestions.sort(() => Math.random() - 0.5);
             }
+
+            // Shuffle the final mix so questions from different topics interleave randomly
+            finalQuestions = finalQuestions.sort(() => Math.random() - 0.5);
 
             currentExamQuestions = finalQuestions;
             examIndex = 0;
