@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Unit 1: Thinking and Learning",
+        "file": "data/unit1.json",
+        "active": true
+    },
+    {
+        "title": "Unit 2: Changes and Technology",
+        "file": "data/unit2.json",
+        "active": false
+    }
+]
