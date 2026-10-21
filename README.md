@@ -20,8 +20,9 @@ A lightweight, interactive web application designed to help students prepare for
 
 ```text
 ├── index.html        # Main application file (UI and Logic)
-├── temas.json        # Master index catalog of all available units
-├── unit1.json        # Content file for Unit 1 (Study cards & Test questions)
+├── data/             # Folder containing all JSON data files
+│   ├── temas.json    # Master index catalog of all available units
+│   └── unit1.json    # Content file for Unit 1 (Study cards & Test questions)
 └── README.md         # Project documentation
 ```
 
