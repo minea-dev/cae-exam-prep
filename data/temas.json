@@ -7,6 +7,16 @@
     {
         "title": "Unit 2: Changes and Technology",
         "file": "data/unit2.json",
+        "active": true
+    },
+    {
+        "title": "Unit 3: Time and Work",
+        "file": "data/unit3.json",
+        "active": false
+    },
+    {
+        "title": "Unit 4: Movement and Transport",
+        "file": "data/unit4.json",
         "active": false
     }
 ]
