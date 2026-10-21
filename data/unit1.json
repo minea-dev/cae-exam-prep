@@ -2,296 +2,1578 @@
     "title": "Unit 1: Thinking and Learning",
     "study": [
         {
+            "category": "Topic Vocab: Thinking",
+            "term": "assess (v)",
+            "definition": "To carefully consider a situation, person or problem in order to make a judgment.",
+            "explanation": "Example: We tried to assess his suitability for the job."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "assume (v)",
+            "definition": "To believe that something is true, even though no one has told you or even though you have no proof.",
+            "explanation": "Example: Everyone accepted she was telling the truth, although in fact they had only assumed it."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "baffle (v)",
+            "definition": "If a problem, someone's behaviour, etc baffles you, you cannot understand it or solve it.",
+            "explanation": "Example: Detectives remain baffled by these murders."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "biased (adj)",
+            "definition": "Unfairly preferring one person or group over another.",
+            "explanation": "Example: It was a biased report."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "concentrate (v)",
+            "definition": "To give all your attention to the thing you are doing.",
+            "explanation": "Example: I was sleeping badly and finding it hard to concentrate."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "consider (v)",
+            "definition": "To think about something carefully before making a decision or developing an opinion.",
+            "explanation": "Example: She paused and considered for a moment."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "contemplate (v)",
+            "definition": "To consider doing something in the future; to think very carefully about something for a long time.",
+            "explanation": "Example: I'm contemplating retirement next year."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "cynical (adj)",
+            "definition": "Someone who is cynical believes that people care only about themselves and are not sincere or honest.",
+            "explanation": "Example: I know that some of you are very cynical about the proposals."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "deduce (v)",
+            "definition": "To know something as a result of considering the information or evidence that you have.",
+            "explanation": "Example: Finding fossils far inland, he deduced that the area had once been covered by water."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "deliberate (v)",
+            "definition": "To think about or discuss something very carefully, especially before you make an important decision.",
+            "explanation": "Example: The judges deliberated for an hour before choosing the winner."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "dilemma (n)",
+            "definition": "A situation in which you have to make a difficult decision.",
+            "explanation": "Example: I'm in a dilemma over whether to tell him or not."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "discriminate (v)",
+            "definition": "To treat someone unfairly because of their religion, race, or other personal features; to recognise the difference between things.",
+            "explanation": "Example: Employers are not allowed to discriminate on the basis of gender."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "dubious (adj)",
+            "definition": "Not completely good, safe or honest; not sure about the truth or quality of something.",
+            "explanation": "Example: The story seemed a bit dubious to me."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "estimate (v, n)",
+            "definition": "To say what you think an amount or value will be, either by guessing or by using available information to calculate it.",
+            "explanation": "Example: It's difficult to estimate the cost of making your house safe."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "faith (n)",
+            "definition": "Strong belief in or trust of someone or something.",
+            "explanation": "Example: I'm losing faith in this company."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "gather (v)",
+            "definition": "To believe that something is true, although no one has directly told you about it.",
+            "explanation": "Example: You're new here, I gather."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "genius (n)",
+            "definition": "Someone who is much more intelligent or skilful than other people.",
+            "explanation": "Example: She was a mathematical genius."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "grasp (v)",
+            "definition": "To understand something.",
+            "explanation": "Example: He was finding it difficult to grasp the rules of the game."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "guesswork (n)",
+            "definition": "The process of trying to find the answer to something by guessing, or the answer found by using this method.",
+            "explanation": "Example: It was a theory based on pure guesswork."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "hunch (n)",
+            "definition": "A feeling that something is true or will happen, although you do not know any definite facts about it.",
+            "explanation": "Example: I've got a hunch there'll be an election soon."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "ideology (n)",
+            "definition": "A system of ideas and principles on which a political or economic theory is based.",
+            "explanation": "Example: State control is a fundamental aspect of Marxist ideology."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "ingenious (adj)",
+            "definition": "An ingenious plan, piece of equipment, etc uses new and clever ideas.",
+            "explanation": "Example: This is an ingenious device for opening bottles."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "inspiration (n)",
+            "definition": "A sudden feeling of enthusiasm or a new idea that helps you to do or create something.",
+            "explanation": "Example: Dreams are a rich source of inspiration for some writers."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "intuition (n)",
+            "definition": "An ability to know or understand something through your feelings, rather than by considering facts or evidence.",
+            "explanation": "Example: Intuition told her it was unwise to argue."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "justify (v)",
+            "definition": "To show that there is a good reason for something, especially something that other people think is wrong.",
+            "explanation": "Example: You'll be expected to justify your actions."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "naïve (adj)",
+            "definition": "A naïve person lacks experience of life and tends to trust other people and believe things too easily.",
+            "explanation": "Example: I was a naïve 17-year-old at the time."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "notion (n)",
+            "definition": "An idea or understanding of something.",
+            "explanation": "Example: I haven't the faintest notion what you're talking about."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "optimistic (adj)",
+            "definition": "Someone who is optimistic is hopeful about the future and tends to expect that good things will happen.",
+            "explanation": "Example: She's not very optimistic about the outcome of the talks."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "paradox (n)",
+            "definition": "A person, thing or situation that is strange because they have features or qualities that do not normally exist together.",
+            "explanation": "Example: We get this apparent paradox of people migrating to an area that has very high unemployment."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "pessimistic (adj)",
+            "definition": "Someone who is pessimistic is not hopeful about the future and tends to expect that bad things will happen.",
+            "explanation": "Example: She said she was pessimistic about the future of the company."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "plausible (adj)",
+            "definition": "Likely to be true, honest or suitable.",
+            "explanation": "Example: A bomb was the only plausible explanation for the crash."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "ponder (v)",
+            "definition": "To think carefully about something for a long time before reaching a decision.",
+            "explanation": "Example: I'm still pondering whether to tell Janine or not."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "prejudiced (adj)",
+            "definition": "Someone who is prejudiced has an unreasonable opinion or feeling about someone or something, especially hatred or fear of a particular group of people.",
+            "explanation": "Example: They are prejudiced against older applicants."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "presume (v)",
+            "definition": "To think something is true because it is likely, although you cannot be certain.",
+            "explanation": "Example: I presume you've already ordered lunch."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "query (v, n)",
+            "definition": "To ask a question about something because you have doubts about it; a question.",
+            "explanation": "Example: It is not for us to query his decisions."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "reckon (v)",
+            "definition": "To believe that something is true.",
+            "explanation": "Example: I reckon there's something wrong with him."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "reflect (v)",
+            "definition": "To think about something carefully and seriously.",
+            "explanation": "Example: Josie reflected on how easily she could have been killed."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "sceptical/skeptical (adj)",
+            "definition": "Having doubts about something that other people think is true or right.",
+            "explanation": "Example: Harrison approved the plan, but Riley remained sceptical."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "speculate (v)",
+            "definition": "To consider or discuss why something has happened.",
+            "explanation": "Example: We can only speculate on the reasons for his sudden resignation."
+        },
+        {
+            "category": "Topic Vocab: Thinking",
+            "term": "suppose (v)",
+            "definition": "To believe that something is probably true, based on your experience, your knowledge, and any other information that you have.",
+            "explanation": "Example: She was about 35, Dexter supposed."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "academic (n, adj)",
+            "definition": "(adj) relating to education, especially education in colleges and universities; (n) someone who teaches or does research at a college or university.",
+            "explanation": "Example: The book brings together several academic subjects."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "conscientious (adj)",
+            "definition": "putting a lot of effort into your work and doing it carefully and thoroughly.",
+            "explanation": "Example: She has always been a very conscientious worker."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "cram (v)",
+            "definition": "to try to learn a lot very quickly before an exam.",
+            "explanation": "Example: She's cramming for her history exam tomorrow."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "curriculum (n)",
+            "definition": "the group of subjects studied in a school, college, etc., or the topics taught within a particular subject.",
+            "explanation": "Example: IT is now on the curriculum in most schools."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "distance learning (n phr)",
+            "definition": "a way of studying where tuition is carried out over the internet or by post.",
+            "explanation": "Example: I got my degree through a distance learning program."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "graduate (v, n)",
+            "definition": "(v) to complete a degree at a university or college; (n) a person who has a first degree from a university or college.",
+            "explanation": "Example: He graduated from Cambridge University in 2006."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "ignorant (adj)",
+            "definition": "not having enough knowledge, understanding, or information about something.",
+            "explanation": "Example: Many people are surprisingly ignorant about the history of their own country."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "inattentive (adj)",
+            "definition": "not giving attention to someone or something.",
+            "explanation": "Example: He was wholly inattentive to the needs of his students."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "intellectual (n, adj)",
+            "definition": "(adj) relating to your ability to think and understand things, especially complicated ideas; (n) a well-educated person whose interests are studying and other activities that involve careful thinking.",
+            "explanation": "Example: She's a true intellectual."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "intelligent (adj)",
+            "definition": "showing intelligence, or able to learn and understand things easily.",
+            "explanation": "Example: He is a highly intelligent person who can solve problems quickly."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "intensive (adj)",
+            "definition": "involving a lot of effort or activity in a short period of time.",
+            "explanation": "Example: I took a two-week intensive course in Spanish."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "knowledgeable (adj)",
+            "definition": "knowing a lot about a particular subject or about many subjects.",
+            "explanation": "Example: He's very knowledgeable about German literature."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "lecture (v, n)",
+            "definition": "(n) a formal talk on a serious subject given to a group of people, especially students; (v) to give a formal talk to a group of people.",
+            "explanation": "Example: We went to a lecture on Italian art."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "mock exam (n phr)",
+            "definition": "an examination you take for practice before an important examination.",
+            "explanation": "Example: We've got our mock exams next week so I need to study."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "plagiarise (v)",
+            "definition": "to use another person's ideas or work and pretend that it is your own.",
+            "explanation": "Example: The university has strict penalties for students who plagiarise."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "self-study (n)",
+            "definition": "a way of learning about a subject that involves studying on your own, rather than in a classroom with a teacher.",
+            "explanation": "Example: The diploma is awarded following a course of self-study."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "seminar (n)",
+            "definition": "an occasion when a teacher or expert and a group of people meet to study and discuss something.",
+            "explanation": "Example: I attended a seminar on problem-solving techniques."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "special needs (n phr)",
+            "definition": "the particular needs of people who have physical or mental disabilities.",
+            "explanation": "Example: The school caters for children with special needs."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "tuition (n)",
+            "definition": "teaching, especially when given to a small group or one person, such as in a college or university.",
+            "explanation": "Example: All students receive tuition in logic and maths."
+        },
+        {
+            "category": "Topic Vocab: Learning",
+            "term": "tutorial (n)",
+            "definition": "a period of study with a tutor involving one student or a small group.",
+            "explanation": "Example: Students only have 8 hours of tutorials a week."
+        },
+        {
             "category": "Phrasal Verb",
             "term": "brush up (on)",
             "definition": "practise and improve your skills or knowledge of something",
-            "explanation": "Example: I need to brush up on my French before the exam."
+            "explanation": "Example: I need to brush up on my German before my trip to Berlin."
         },
         {
             "category": "Phrasal Verb",
             "term": "come (a)round (to)",
             "definition": "change your opinion or decision because someone has persuaded you to agree with them",
-            "explanation": "Example: He'll come around to my way of thinking eventually."
+            "explanation": "Example: He didn't like the idea at first, but he eventually came around to it."
         },
         {
             "category": "Phrasal Verb",
             "term": "come up with",
             "definition": "think of something such as an idea or a plan",
-            "explanation": "Example: She came up with a brilliant idea for the project."
+            "explanation": "Example: We need to come up with a better way to market this product."
         },
         {
             "category": "Phrasal Verb",
             "term": "face up to",
             "definition": "accept something and try to deal with it",
-            "explanation": "Example: You have to face up to your responsibilities."
+            "explanation": "Example: She had to face up to the fact that she would never walk again."
         },
         {
             "category": "Phrasal Verb",
             "term": "figure out",
             "definition": "be able to understand something or solve a problem; understand what someone is like and why they behave in the way they do",
-            "explanation": "Example: I can't figure out how to solve this math problem."
+            "explanation": "Example: It took them hours to figure out how to assemble the wardrobe."
         },
         {
             "category": "Phrasal Verb",
             "term": "hit upon",
             "definition": "suddenly have an idea; discover something by chance",
-            "explanation": "Example: We hit upon the solution completely by accident."
+            "explanation": "Example: When we first hit upon the idea, everyone told us it would never work."
         },
         {
             "category": "Phrasal Verb",
             "term": "make out",
             "definition": "see, hear or understand someone or something with difficulty; suggest, imply",
-            "explanation": "Example: I can barely make out the sign in the dark."
+            "explanation": "Example: The handwriting was so bad I couldn't make out what he had written."
         },
         {
             "category": "Phrasal Verb",
             "term": "mull over",
             "definition": "think carefully about something over a period of time",
-            "explanation": "Example: I need a few days to mull over your offer."
+            "explanation": "Example: They need some time to mull over the proposal before signing the contract."
         },
         {
             "category": "Phrasal Verb",
             "term": "piece together",
             "definition": "learn the truth about something by considering all the separate bits of information you have",
-            "explanation": "Example: The police are trying to piece together the sequence of events."
+            "explanation": "Example: Police are trying to piece together the events leading up to the murder."
         },
         {
             "category": "Phrasal Verb",
             "term": "puzzle out",
             "definition": "solve a confusing or complicated problem by thinking carefully about it",
-            "explanation": "Example: It took me a while to puzzle out the meaning of the poem."
+            "explanation": "Example: He was trying to puzzle out why she had left without saying goodbye."
         },
         {
             "category": "Phrasal Verb",
             "term": "read up (on/about)",
             "definition": "get information on a particular subject by reading a lot about it",
-            "explanation": "Example: I need to read up on British history for my test."
+            "explanation": "Example: I should read up on the local customs before I travel there."
         },
         {
             "category": "Phrasal Verb",
             "term": "swot up (on)",
             "definition": "study something very hard, especially for an examination",
-            "explanation": "Example: I've got to swot up on phrasal verbs tonight."
+            "explanation": "Example: I've got to swot up on my French verbs for the test tomorrow."
         },
         {
             "category": "Phrasal Verb",
             "term": "take in",
             "definition": "understand and remember something that you hear or read; accept something as real or true; trick someone into believing something that is not true",
-            "explanation": "Example: Don't be taken in by his lies."
+            "explanation": "Example: Don't be taken in by his charming manner; he's actually quite ruthless."
         },
         {
             "category": "Phrasal Verb",
             "term": "think over",
             "definition": "consider a problem or decision carefully",
-            "explanation": "Example: Let me think it over and I'll call you tomorrow."
+            "explanation": "Example: I'll think it over and give you an answer on Monday."
         },
         {
             "category": "Phrasal Verb",
             "term": "think through",
             "definition": "consider the facts about something in an organised and thorough way",
-            "explanation": "Example: We need to think this plan through before we act."
+            "explanation": "Example: They had failed to think the policy through to its logical conclusion."
         },
         {
             "category": "Phrasal Verb",
             "term": "think up",
             "definition": "invent or imagine something, especially an excuse",
-            "explanation": "Example: I have to think up a good excuse for being late."
+            "explanation": "Example: I'll have to think up a good excuse for being late."
+        },
+        {
+            "category": "Collocations",
+            "term": "account",
+            "definition": "account for, (give) an account of, take into account, take account of, on account of, by all accounts, on sb's account",
+            "explanation": "Example: The match was cancelled on account of the bad weather. / We must take his age into account."
+        },
+        {
+            "category": "Collocations",
+            "term": "associate",
+            "definition": "associate sth with",
+            "explanation": "Example: Most people associate this brand with good quality."
+        },
+        {
+            "category": "Collocations",
+            "term": "balance",
+            "definition": "(hang) in the balance, strike a balance, upset/alter/redress the balance, balance between/of, on balance, off balance",
+            "explanation": "Example: It is difficult to strike a balance between work and family life. / His survival hung in the balance for days."
+        },
+        {
+            "category": "Collocations",
+            "term": "basis",
+            "definition": "basis for, on a daily/temporary/etc basis, on the basis of/that",
+            "explanation": "Example: They were hired on a temporary basis. / Decisions were made on the basis of the new data."
+        },
+        {
+            "category": "Collocations",
+            "term": "belief",
+            "definition": "express belief(s), belief in/that, contrary to popular belief, beyond belief, in the belief that, popular/widely held/widespread/firm/strong/growing belief",
+            "explanation": "Example: Contrary to popular belief, bats are not blind. / His cruelty was almost beyond belief."
+        },
+        {
+            "category": "Collocations",
+            "term": "brain",
+            "definition": "pick sb's brain(s), rack your brain(s), the brains behind, brainless, brainchild (of), brainstorm, brainwash, brainwave",
+            "explanation": "Example: Can I pick your brain about this project? / I've been racking my brains all day trying to remember her name."
+        },
+        {
+            "category": "Collocations",
+            "term": "conclusion",
+            "definition": "bring sth to a conclusion, come to / arrive at / reach a conclusion, jump/leap to conclusions, in conclusion, conclusion of, logical conclusion, foregone conclusion",
+            "explanation": "Example: Let's not jump to conclusions before we have all the facts. / The result of the match was a foregone conclusion."
+        },
+        {
+            "category": "Collocations",
+            "term": "consideration",
+            "definition": "take into consideration, give consideration to, show consideration for, under consideration, for sb's consideration, out of consideration for",
+            "explanation": "Example: The proposals are currently under consideration. / We must take his lack of experience into consideration."
+        },
+        {
+            "category": "Collocations",
+            "term": "doubt",
+            "definition": "doubt that, have your doubts about, cast doubt on, raise doubts, in doubt, doubt as to / about, beyond (any) doubt, (a) reasonable doubt, without a doubt, open to doubt",
+            "explanation": "Example: New evidence has cast doubt on his guilt. / He is without a doubt the best player on the team."
+        },
+        {
+            "category": "Collocations",
+            "term": "dream",
+            "definition": "dream of/about/that, have a dream, a dream to, beyond your wildest dreams, a dream come true, in your dreams, like a dream",
+            "explanation": "Example: The house was beyond my wildest dreams. / Winning the championship was a dream come true."
+        },
+        {
+            "category": "Collocations",
+            "term": "focus",
+            "definition": "focus on, the focus of/for, in focus, out of focus, focus group, main/primary/major focus",
+            "explanation": "Example: The main focus of the meeting will be the new budget. / The subject's face is out of focus in this photo."
+        },
+        {
+            "category": "Collocations",
+            "term": "impression",
+            "definition": "have/give the (false) impression that, do an impression (of), create/make an impression (on sb), under the impression that, first impressions",
+            "explanation": "Example: I was under the impression that you were coming tomorrow. / He does a great impression of the president."
+        },
+        {
+            "category": "Collocations",
+            "term": "mental",
+            "definition": "make a mental note (of/about), mental arithmetic, mental illness, mental age, mental health",
+            "explanation": "Example: I made a mental note to call her later. / You need to be good at mental arithmetic for this job."
+        },
+        {
+            "category": "Collocations",
+            "term": "mind",
+            "definition": "make up your mind, cross/slip your mind, have/bear in mind, have a one-track mind, take your mind off, bring to mind, in two minds about, on your mind, state of mind, narrow/broad/open/absent-minded",
+            "explanation": "Example: I completely forgot; it just slipped my mind. / I'm in two minds about accepting the job."
+        },
+        {
+            "category": "Collocations",
+            "term": "misapprehension",
+            "definition": "under the misapprehension that",
+            "explanation": "Example: I was under the misapprehension that the course was free."
+        },
+        {
+            "category": "Collocations",
+            "term": "perspective",
+            "definition": "put into perspective, from another / a different / sb's / etc perspective, from the perspective of, in perspective, out of perspective, a sense of perspective",
+            "explanation": "Example: Seeing the damage caused by the earthquake put my own problems into perspective."
+        },
+        {
+            "category": "Collocations",
+            "term": "principle",
+            "definition": "have principles, stand by / stick to your principles, principle of sth, principle that, in principle, a matter / an issue of principle, against sb's principles, set of principles",
+            "explanation": "Example: She refused to lie, as a matter of principle. / You should always stick to your principles."
+        },
+        {
+            "category": "Collocations",
+            "term": "question",
+            "definition": "beg the question, raise the question (of), a/no question of, in question, out of the question, without question, beyond question, some question over / as to / about, awkward question",
+            "explanation": "Example: Buying a new car is completely out of the question right now. / The man in question was seen leaving the building."
+        },
+        {
+            "category": "Collocations",
+            "term": "sense",
+            "definition": "sense that, see sense, make sense (of), have the sense to, come to your senses, a sense of, in a/one sense, common sense",
+            "explanation": "Example: I hope he comes to his senses and apologizes. / It makes no sense to leave now."
+        },
+        {
+            "category": "Collocations",
+            "term": "side",
+            "definition": "side with sb, take sides, see both sides (of an argument), look on the bright side, on the plus/minus side, by sb's side, on sb's side, on either side (of)",
+            "explanation": "Example: Try to look on the bright side; at least you're not hurt. / I don't want to take sides in your argument."
+        },
+        {
+            "category": "Collocations",
+            "term": "straight",
+            "definition": "set/put sb straight about, set/put the record straight, get/come straight to the point, get sth straight, think/see straight, straight talking, straight answer",
+            "explanation": "Example: Let me set the record straight: I never said that. / I'm so tired I can't even think straight."
+        },
+        {
+            "category": "Collocations",
+            "term": "view",
+            "definition": "view sth as, take the view that, take a dim/poor view of, come into view, in view of, with a view to, view on/about/that, in sb's view, viewpoint, point of view",
+            "explanation": "Example: My boss takes a dim view of people arriving late. / We bought the house with a view to renovating it."
         },
         {
             "category": "Idiom",
             "term": "go to your head",
             "definition": "if success goes to your head, it makes you think that you are better or more important than you really are",
-            "explanation": "Example: Don't let the promotion go to your head."
+            "explanation": "Example: He's been on TV twice and it's completely gone to his head."
         },
         {
             "category": "Idiom",
             "term": "have your wits about you",
             "definition": "be able to think quickly and make sensible decisions",
-            "explanation": "Example: You need to have your wits about you when driving in heavy traffic."
+            "explanation": "Example: You need to have your wits about you when driving through these mountains."
         },
         {
             "category": "Idiom",
             "term": "in the dark (about)",
             "definition": "not knowing very much about something, because other people are keeping it secret from you",
-            "explanation": "Example: I'm completely in the dark about the new company policy."
+            "explanation": "Example: They kept me completely in the dark about the surprise party."
         },
         {
             "category": "Idiom",
             "term": "know what's what",
             "definition": "know the important facts about a situation",
-            "explanation": "Example: Ask Jane, she knows what's what around this office."
+            "explanation": "Example: Ask the manager, she's been here for years and knows what's what."
         },
         {
             "category": "Idiom",
             "term": "not have a leg to stand on",
             "definition": "not have any way of proving that you are right about something",
-            "explanation": "Example: Without witnesses, you don't have a leg to stand on in court."
+            "explanation": "Example: Without a written contract, you don't have a leg to stand on in court."
         },
         {
             "category": "Idiom",
             "term": "not see the wood for the trees",
             "definition": "used for saying that someone cannot understand what is important in a situation because they are thinking too much about small details",
-            "explanation": "Example: The manager is so obsessed with the budget that he can't see the wood for the trees."
+            "explanation": "Example: He's obsessing over the font size and can't see the wood for the trees regarding the overall project."
         },
         {
             "category": "Idiom",
             "term": "put two and two together",
             "definition": "guess what is happening or what something means based on what you have seen or heard",
-            "explanation": "Example: I saw them leaving together and put two and two together."
+            "explanation": "Example: I saw them leaving together and just put two and two together."
         },
         {
             "category": "Idiom",
             "term": "quick/slow on the uptake",
             "definition": "taking a very short/long time to understand or realise something",
-            "explanation": "Example: He's a bit slow on the uptake, so explain it carefully."
+            "explanation": "Example: He's a bit slow on the uptake, so explain the rules again."
         },
         {
             "category": "Idiom",
             "term": "ring a bell",
             "definition": "something that rings a bell sounds familiar to you, although you cannot remember the exact details",
-            "explanation": "Example: That name rings a bell, but I can't picture his face."
+            "explanation": "Example: The name rings a bell, but I can't picture his face."
         },
         {
             "category": "Idiom",
             "term": "round the bend",
             "definition": "crazy",
-            "explanation": "Example: This noise is driving me round the bend!"
+            "explanation": "Example: This loud music is driving me round the bend!"
         },
         {
             "category": "Idiom",
             "term": "split hairs",
             "definition": "argue or worry about very small details or differences that are not important",
-            "explanation": "Example: Let's not split hairs over exactly how much we owe."
+            "explanation": "Example: Let's not split hairs over exactly how many minutes late he was."
         },
         {
             "category": "Idiom",
             "term": "take stock (of)",
             "definition": "spend some time thinking about the situation you are in before you decide what to do next",
-            "explanation": "Example: After the failure, we need to take stock of our options."
+            "explanation": "Example: After the failure of the business, she took a week off to take stock of her life."
         },
         {
-            "category": "Collocations",
-            "term": "Conclusion",
-            "definition": "Collocations: bring sth to a conclusion, come to / arrive at / reach a conclusion, jump/leap to conclusions, in conclusion, foregone conclusion",
-            "explanation": "Focus on verbs associated with 'conclusion'."
+            "category": "Word Formation",
+            "term": "assume",
+            "definition": "assumption, assuming, unassuming, assumed",
+            "explanation": "Example: They made the assumption that the company would pay for the meal."
+        },
+        {
+            "category": "Word Formation",
+            "term": "believe",
+            "definition": "disbelieve, belief, disbelief, (un)believer, (un)believable, disbelieving, unbelievably",
+            "explanation": "Example: He stared at the ruined car in disbelief."
+        },
+        {
+            "category": "Word Formation",
+            "term": "brilliant",
+            "definition": "brilliance, brilliantly",
+            "explanation": "Example: Her brilliance as a scientist was recognized worldwide."
         },
         {
             "category": "Word Formation",
             "term": "conceive",
             "definition": "conceptualise, concept, conception, conceptual, (in)conceivable, (in)conceivably",
-            "explanation": "Word formation family for the verb 'conceive'."
+            "explanation": "Example: It is inconceivable that the president didn't know about the scandal."
+        },
+        {
+            "category": "Word Formation",
+            "term": "confuse",
+            "definition": "confusion, confused, confusing(ly)",
+            "explanation": "Example: The new tax regulations are highly confusing."
+        },
+        {
+            "category": "Word Formation",
+            "term": "convince",
+            "definition": "conviction, (un)convinced, (un)convincing(ly)",
+            "explanation": "Example: He gave a very unconvincing excuse for being late."
+        },
+        {
+            "category": "Word Formation",
+            "term": "decide",
+            "definition": "decision, decider, decisiveness, deciding, (in)decisive(ly)",
+            "explanation": "Example: The team's lack of decisiveness cost them the match."
+        },
+        {
+            "category": "Word Formation",
+            "term": "define",
+            "definition": "definition, defined, definitive(ly), (in)definite(ly)",
+            "explanation": "Example: We need a definitive answer by tomorrow."
+        },
+        {
+            "category": "Word Formation",
+            "term": "doubt",
+            "definition": "doubter, doubtful(ly), undoubted(ly), doubtless",
+            "explanation": "Example: She is undoubtedly the best candidate for the job."
+        },
+        {
+            "category": "Word Formation",
+            "term": "explain",
+            "definition": "explanation, explanatory, unexplained, (in)explicable, inexplicably",
+            "explanation": "Example: His behaviour was completely inexplicable."
+        },
+        {
+            "category": "Word Formation",
+            "term": "imagine",
+            "definition": "imagination, imaginings, imaginary, (un)imaginative(ly)",
+            "explanation": "Example: The author's new book is highly imaginative."
+        },
+        {
+            "category": "Word Formation",
+            "term": "judge",
+            "definition": "judg(e)ment, judiciary, judiciousness, judicious, judicial, judg(e)mental, judiciously",
+            "explanation": "Example: Try not to be so judgemental about people you don't know."
+        },
+        {
+            "category": "Word Formation",
+            "term": "logic",
+            "definition": "(il)logical(ly)",
+            "explanation": "Example: It is totally illogical to drive to the gym just to walk on a treadmill."
+        },
+        {
+            "category": "Word Formation",
+            "term": "opinion",
+            "definition": "opinionated",
+            "explanation": "Example: He's very opinionated and never listens to anyone else."
+        },
+        {
+            "category": "Word Formation",
+            "term": "rational",
+            "definition": "rationalise, rationalisation, rationalist, rationalism, (ir)rationality, (ir)rational(ly)",
+            "explanation": "Example: She tried to rationalise her decision to quit her job."
+        },
+        {
+            "category": "Word Formation",
+            "term": "reason",
+            "definition": "reasoning, reasonableness, (un)reasonable, reasoned, (un)reasonably",
+            "explanation": "Example: They made an unreasonable demand for more money."
+        },
+        {
+            "category": "Word Formation",
+            "term": "sane",
+            "definition": "(in)sanity, insane(ly)",
+            "explanation": "Example: The sheer volume of noise was driving him to the brink of insanity."
+        },
+        {
+            "category": "Word Formation",
+            "term": "sense",
+            "definition": "(de)sensitise, nonsense, sensitivity, sensibility, senseless(ness), sensible, nonsensical, sensibly, sensitive(ly)",
+            "explanation": "Example: It's a sensible decision given the current circumstances."
+        },
+        {
+            "category": "Word Formation",
+            "term": "think",
+            "definition": "thought, thinker, thinking, thoughtfulness, thoughtlessness, (un)thinkable, thoughtful(ly), thoughtless(ly)",
+            "explanation": "Example: It was very thoughtful of you to remember my birthday."
+        },
+        {
+            "category": "Word Formation",
+            "term": "wise",
+            "definition": "wisdom, (un)wise(ly)",
+            "explanation": "Example: It would be unwise to invest all your money in one company."
         }
     ],
     "test": [
         {
-            "question": "Which phrasal verb means 'to suddenly have an idea or discover something by chance'?",
+            "question": "If a problem or someone's behaviour ________ you, you cannot understand it or solve it.",
             "options": [
-                "think through",
+                "baffles",
+                "assesses",
+                "deduces",
+                "justifies"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Baffle' means to completely confuse someone so they cannot understand or explain something."
+        },
+        {
+            "question": "Which adjective describes someone who has doubts about something that other people think is true or right?",
+            "options": [
+                "cynical",
+                "sceptical",
+                "dubious",
+                "naïve"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Sceptical' specifically means having doubts about claims or facts. 'Cynical' refers more to doubting people's motives."
+        },
+        {
+            "question": "Choose the word that means 'to think about something carefully for a long time before reaching a decision':",
+            "options": [
+                "ponder",
+                "reckon",
+                "gather",
+                "grasp"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Ponder' means to consider something deeply and carefully over a period of time."
+        },
+        {
+            "question": "Complete the sentence: It's a ________ that in such a rich country there can be so much poverty.",
+            "options": [
+                "dilemma",
+                "paradox",
+                "notion",
+                "guesswork"
+            ],
+            "correctIndex": 1,
+            "explanation": "A 'paradox' is a situation that seems strange because it involves two facts or qualities that contradict each other."
+        },
+        {
+            "question": "Which verb means 'to believe that something is true, although no one has directly told you about it' (often used when picking up on clues)?",
+            "options": [
+                "assume",
+                "presume",
+                "gather",
+                "reflect"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Gather' is used when you figure something out or believe it to be true based on the information or context around you (e.g., 'I gather you are the new manager')."
+        },
+        {
+            "question": "An explanation that is ________ is likely to be true or suitable.",
+            "options": [
+                "ingenious",
+                "plausible",
+                "dubious",
+                "optimistic"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Plausible' describes something (like an excuse or explanation) that seems reasonable or probable."
+        },
+        {
+            "question": "If you have a feeling that something is true but no definite facts, you have a(n):",
+            "options": [
+                "intuition",
+                "hunch",
+                "inspiration",
+                "estimate"
+            ],
+            "correctIndex": 1,
+            "explanation": "A 'hunch' is a strong intuitive feeling or guess about a situation or outcome."
+        },
+        {
+            "question": "Which word is a synonym for 'to understand something fully'?",
+            "options": [
+                "grasp",
+                "assess",
+                "speculate",
+                "query"
+            ],
+            "correctIndex": 0,
+            "explanation": "To 'grasp' a concept or idea means to fully comprehend it."
+        },
+        {
+            "question": "What verb means 'to discuss something very carefully, especially before making an important decision' (often used with juries or panels)?",
+            "options": [
+                "contemplate",
+                "deliberate",
+                "deduce",
+                "reflect"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Deliberate' means to engage in long and careful consideration or discussion."
+        },
+        {
+            "question": "If someone is unfairly preferring one person or group over another, they are:",
+            "options": [
+                "prejudiced",
+                "cynical",
+                "biased",
+                "pessimistic"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Biased' means showing an unfair preference for or against something."
+        },
+        {
+            "question": "Which word describes a student who puts a lot of effort into their work and does it thoroughly?",
+            "options": [
+                "intelligent",
+                "conscientious",
+                "intellectual",
+                "knowledgeable"
+            ],
+            "correctIndex": 1,
+            "explanation": "A 'conscientious' person works hard and carefully. 'Intelligent' refers to ability, not effort."
+        },
+        {
+            "question": "If you try to learn a lot very quickly just before an exam, you are:",
+            "options": [
+                "cramming",
+                "plagiarising",
+                "lecturing",
+                "graduating"
+            ],
+            "correctIndex": 0,
+            "explanation": "'To cram' means to study intensively over a short period of time just before a test."
+        },
+        {
+            "question": "What is the term for an examination you take for practice before the real one?",
+            "options": [
+                "seminar",
+                "tutorial",
+                "mock exam",
+                "self-study"
+            ],
+            "correctIndex": 2,
+            "explanation": "A 'mock exam' is a practice test designed to simulate the real examination."
+        },
+        {
+            "question": "Which of these involves a teacher or expert meeting with a group of people to study and DISCUSS something?",
+            "options": [
+                "lecture",
+                "curriculum",
+                "seminar",
+                "tuition"
+            ],
+            "correctIndex": 2,
+            "explanation": "A 'seminar' is interactive and involves discussion, whereas a 'lecture' is usually a formal talk where students listen."
+        },
+        {
+            "question": "Using another person's ideas or work and pretending that it is your own is called:",
+            "options": [
+                "self-study",
+                "distance learning",
+                "plagiarising",
+                "cramming"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Plagiarise' means to copy someone else's work and claim it as your own."
+        },
+        {
+            "question": "Which word means 'not giving attention to someone or something'?",
+            "options": [
+                "ignorant",
+                "inattentive",
+                "intensive",
+                "academic"
+            ],
+            "correctIndex": 1,
+            "explanation": "Someone who is 'inattentive' is not paying attention. 'Ignorant' means lacking knowledge."
+        },
+        {
+            "question": "The subjects studied in a school, college, etc. and what each subject includes is the:",
+            "options": [
+                "tutorial",
+                "curriculum",
+                "tuition",
+                "lecture"
+            ],
+            "correctIndex": 1,
+            "explanation": "The 'curriculum' is the overall program of study or the syllabus."
+        },
+        {
+            "question": "A period of study with a tutor involving one student or a very small group is a:",
+            "options": [
+                "lecture",
+                "seminar",
+                "tutorial",
+                "mock exam"
+            ],
+            "correctIndex": 2,
+            "explanation": "A 'tutorial' is a small, personalized teaching session, common in universities."
+        },
+        {
+            "question": "Teaching, especially when given to a small group or one person, or the money paid for this, is called:",
+            "options": [
+                "self-study",
+                "academic",
+                "tuition",
+                "curriculum"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Tuition' refers to the instruction itself, or the fees paid for that instruction."
+        },
+        {
+            "question": "Someone who does not have enough knowledge, understanding, or information about something is:",
+            "options": [
+                "inattentive",
+                "ignorant",
+                "intellectual",
+                "intensive"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Ignorant' describes a lack of knowledge or awareness about a topic."
+        },
+        {
+            "question": "If you ________ an idea, you suddenly have it or discover something by chance.",
+            "options": [
+                "think up",
                 "hit upon",
-                "mull over",
-                "piece together"
+                "figure out",
+                "make out"
             ],
             "correctIndex": 1,
             "explanation": "'Hit upon' means to suddenly have an idea or discover something by chance."
         },
         {
-            "question": "Complete the idiom: I was completely in the _______ about the surprise party.",
+            "question": "Which phrasal verb means 'to change your opinion or decision because someone has persuaded you to agree with them'?",
             "options": [
-                "wood",
-                "trees",
-                "dark",
-                "mind"
+                "face up to",
+                "come around (to)",
+                "think over",
+                "mull over"
             ],
-            "correctIndex": 2,
-            "explanation": "'In the dark (about)' means not knowing very much about something because other people are keeping it secret."
+            "correctIndex": 1,
+            "explanation": "To 'come around (to)' means to eventually agree with someone's opinion or decision."
         },
         {
-            "question": "Which option is a correct collocation?",
+            "question": "What does 'brush up (on)' mean?",
             "options": [
-                "catch a conclusion",
-                "make a conclusion",
-                "jump to conclusions",
-                "do a conclusion"
+                "To clean something thoroughly",
+                "To study very hard for an exam",
+                "To practise and improve your skills or knowledge of something",
+                "To invent an excuse"
             ],
             "correctIndex": 2,
-            "explanation": "The correct collocation is 'jump/leap to conclusions'."
+            "explanation": "To 'brush up (on)' means to practise and improve your skills or knowledge of something you used to know."
         },
         {
-            "question": "If you 'swot up (on)' something, you...",
+            "question": "Complete the sentence: Don't let him ________ you in with his lies.",
             "options": [
-                "study something very hard, especially for an exam",
-                "invent an excuse to avoid studying",
-                "guess what is happening",
-                "solve a complicated problem"
+                "make",
+                "take",
+                "figure",
+                "piece"
+            ],
+            "correctIndex": 1,
+            "explanation": "To be 'taken in' means to be tricked into believing something that is not true."
+        },
+        {
+            "question": "Which phrasal verb is closest in meaning to 'invent or imagine something, especially an excuse'?",
+            "options": [
+                "think through",
+                "think over",
+                "think up",
+                "puzzle out"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Think up' implies inventing or creating something from your imagination, like an excuse."
+        },
+        {
+            "question": "If you are trying to learn the truth about something by considering all the separate bits of information you have, you are trying to ________ it.",
+            "options": [
+                "piece together",
+                "read up on",
+                "swot up on",
+                "brush up on"
             ],
             "correctIndex": 0,
-            "explanation": "'Swot up (on)' means to study something very hard, especially for an examination."
+            "explanation": "To 'piece together' means to form a complete picture or understand the truth by combining separate facts."
+        },
+        {
+            "question": "What does it mean if you 'can't make out' what someone is saying?",
+            "options": [
+                "You completely disagree with them",
+                "You think they are lying",
+                "You have difficulty hearing or understanding them",
+                "You want them to stop talking"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Make out' can mean to see, hear, or understand something or someone with difficulty."
+        },
+        {
+            "question": "Choose the best phrasal verb: We need to ________ a new strategy for the upcoming campaign.",
+            "options": [
+                "come up with",
+                "face up to",
+                "hit upon",
+                "take in"
+            ],
+            "correctIndex": 0,
+            "explanation": "To 'come up with' means to think of something such as an idea or a plan."
+        },
+        {
+            "question": "If you study something very hard, especially for an examination, you ________ it.",
+            "options": [
+                "read up on",
+                "swot up on",
+                "think through",
+                "puzzle out"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Swot up (on)' is a specific colloquial expression in British English meaning to study very intensively for an exam."
+        },
+        {
+            "question": "Complete the sentence: You have to ________ the fact that you made a mistake.",
+            "options": [
+                "figure out",
+                "face up to",
+                "think over",
+                "mull over"
+            ],
+            "correctIndex": 1,
+            "explanation": "To 'face up to' means to accept a difficult situation and try to deal with it."
+        },
+        {
+            "question": "Complete the phrase: The outdoor event was cancelled ________ account of the heavy rain.",
+            "options": [
+                "by",
+                "in",
+                "on",
+                "with"
+            ],
+            "correctIndex": 2,
+            "explanation": "The correct collocation is 'on account of', which means 'because of'."
+        },
+        {
+            "question": "Which verb correctly collocates with 'balance' to mean 'to find a satisfactory compromise between two extremes'?",
+            "options": [
+                "hit",
+                "make",
+                "strike",
+                "do"
+            ],
+            "correctIndex": 2,
+            "explanation": "The correct collocation is 'strike a balance'."
+        },
+        {
+            "question": "If you ask someone knowledgeable for their advice or ideas, you ________ their brains.",
+            "options": [
+                "rack",
+                "pick",
+                "wash",
+                "storm"
+            ],
+            "correctIndex": 1,
+            "explanation": "To 'pick someone's brain(s)' means to ask them questions to get information or advice from them."
+        },
+        {
+            "question": "Complete the collocation: ________ to popular belief, the desert can be very cold at night.",
+            "options": [
+                "Contrary",
+                "Opposite",
+                "Against",
+                "Opposed"
+            ],
+            "correctIndex": 0,
+            "explanation": "The fixed phrase is 'contrary to popular belief'."
+        },
+        {
+            "question": "If an outcome is absolutely certain to happen and everyone already knows what it will be, it is a ________ conclusion.",
+            "options": [
+                "logical",
+                "reached",
+                "jumped",
+                "foregone"
+            ],
+            "correctIndex": 3,
+            "explanation": "A 'foregone conclusion' is a result that is obvious or absolutely certain before it happens."
+        },
+        {
+            "question": "Complete the phrase: I've been ________ my brains all day trying to remember the password.",
+            "options": [
+                "picking",
+                "striking",
+                "racking",
+                "altering"
+            ],
+            "correctIndex": 2,
+            "explanation": "To 'rack your brains' means to think very hard about something, often trying to remember it."
+        },
+        {
+            "question": "Which preposition is used in this phrase? 'We evaluate the staff ________ a yearly basis.'",
+            "options": [
+                "in",
+                "on",
+                "at",
+                "by"
+            ],
+            "correctIndex": 1,
+            "explanation": "The correct phrase is 'on a daily/yearly/regular/etc. basis'."
+        },
+        {
+            "question": "Complete the phrase: According to what everyone says, or ________ all accounts, it was a fantastic party.",
+            "options": [
+                "by",
+                "on",
+                "in",
+                "from"
+            ],
+            "correctIndex": 0,
+            "explanation": "The phrase 'by all accounts' means 'according to what other people say'."
+        },
+        {
+            "question": "If a situation is very uncertain and nobody knows what will happen next, it ________ in the balance.",
+            "options": [
+                "strikes",
+                "hangs",
+                "upsets",
+                "bases"
+            ],
+            "correctIndex": 1,
+            "explanation": "If something 'hangs in the balance', its future is uncertain and it could go either way."
+        },
+        {
+            "question": "Choose the correct verb: Please don't ________ to conclusions; let me explain what really happened.",
+            "options": [
+                "run",
+                "arrive",
+                "reach",
+                "jump"
+            ],
+            "correctIndex": 3,
+            "explanation": "To 'jump to conclusions' (or 'leap to conclusions') means to guess the facts of a situation without having enough information."
+        },
+        {
+            "question": "Complete the collocation: The new evidence has ________ doubt on his alibi.",
+            "options": [
+                "put",
+                "cast",
+                "thrown",
+                "made"
+            ],
+            "correctIndex": 1,
+            "explanation": "The correct collocation is 'cast doubt on', meaning to cause people to feel uncertainty about something."
+        },
+        {
+            "question": "If you completely forgot to do something because you were busy, you can say 'it ________ my mind'.",
+            "options": [
+                "crossed",
+                "passed",
+                "slipped",
+                "left"
+            ],
+            "correctIndex": 2,
+            "explanation": "If something 'slips your mind', you forget it."
+        },
+        {
+            "question": "Complete the phrase: Going on holiday to the Maldives this year is completely ________ of the question.",
+            "options": [
+                "out",
+                "beyond",
+                "without",
+                "off"
+            ],
+            "correctIndex": 0,
+            "explanation": "If something is 'out of the question', it is impossible or not allowed."
+        },
+        {
+            "question": "Which phrase means to correct someone's misunderstanding or to tell the true facts about a situation?",
+            "options": [
+                "think straight",
+                "set the record straight",
+                "look on the bright side",
+                "put into perspective"
+            ],
+            "correctIndex": 1,
+            "explanation": "To 'set/put the record straight' means to write or say something in order to make the true facts known."
+        },
+        {
+            "question": "Complete the collocation: I was ________ the impression that the project was already finished.",
+            "options": [
+                "in",
+                "with",
+                "on",
+                "under"
+            ],
+            "correctIndex": 3,
+            "explanation": "The fixed phrase is to be 'under the impression that' (meaning to believe that something is true, often wrongly)."
+        },
+        {
+            "question": "If a teacher strongly disapproves of cheating, you could say they take a ________ view of it.",
+            "options": [
+                "poor/dim",
+                "dark/black",
+                "narrow/closed",
+                "straight/direct"
+            ],
+            "correctIndex": 0,
+            "explanation": "To 'take a dim/poor view of' something means to disapprove of it."
+        },
+        {
+            "question": "Choose the correct phrase: Try to ________ on the bright side; at least we didn't lose any money.",
+            "options": [
+                "see",
+                "look",
+                "watch",
+                "focus"
+            ],
+            "correctIndex": 1,
+            "explanation": "The idiom is 'look on the bright side', meaning to find good things in a bad situation."
+        },
+        {
+            "question": "If someone believes something that is completely incorrect, they are under a ________.",
+            "options": [
+                "misapprehension",
+                "perspective",
+                "consideration",
+                "mindset"
+            ],
+            "correctIndex": 0,
+            "explanation": "To be 'under the misapprehension that' means to wrongly believe something is true."
+        },
+        {
+            "question": "Complete the phrase: Despite the pressure, she decided to ________ to her principles and refused the bribe.",
+            "options": [
+                "stand",
+                "stick",
+                "keep",
+                "hold"
+            ],
+            "correctIndex": 1,
+            "explanation": "The correct collocation is to 'stick to your principles' (or 'stand by your principles')."
+        },
+        {
+            "question": "If an experience helps you understand how important or unimportant your own problems are, it puts things into ________.",
+            "options": [
+                "focus",
+                "mind",
+                "consideration",
+                "perspective"
+            ],
+            "correctIndex": 3,
+            "explanation": "To 'put something into perspective' means to compare something to other things so that it can be accurately and fairly judged."
+        },
+        {
+            "question": "If success ________, it makes you think that you are better or more important than you really are.",
+            "options": [
+                "goes to your head",
+                "rings a bell",
+                "goes round the bend",
+                "splits hairs"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Go to your head' describes when success makes someone arrogant."
+        },
+        {
+            "question": "To ________ means to be able to think quickly and make sensible decisions in a difficult situation.",
+            "options": [
+                "know what's what",
+                "have your wits about you",
+                "put two and two together",
+                "take stock"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Have your wits about you' means being alert and able to act quickly."
+        },
+        {
+            "question": "If you are ________ about something, you don't know much about it because others are keeping it secret.",
+            "options": [
+                "slow on the uptake",
+                "round the bend",
+                "in the dark",
+                "without a leg to stand on"
+            ],
+            "correctIndex": 2,
+            "explanation": "'In the dark' means lacking information that others possess."
+        },
+        {
+            "question": "Someone who 'knows what's what'...",
+            "options": [
+                "is crazy",
+                "argues about small details",
+                "sounds familiar",
+                "knows the important facts about a situation"
+            ],
+            "correctIndex": 3,
+            "explanation": "To 'know what's what' means you understand the reality and important facts of a situation."
+        },
+        {
+            "question": "If you have absolutely no evidence to prove you are right, you...",
+            "options": [
+                "don't have a leg to stand on",
+                "are slow on the uptake",
+                "can't see the wood for the trees",
+                "put two and two together"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Not have a leg to stand on' means having no way to prove or support your argument."
+        },
+        {
+            "question": "Which idiom is used for someone who focuses so much on small details that they fail to understand the big picture?",
+            "options": [
+                "Take stock of the situation",
+                "Not see the wood for the trees",
+                "Have your wits about you",
+                "Split hairs"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Not see the wood for the trees' means missing the main point by focusing on minor details."
+        },
+        {
+            "question": "When you guess what is happening based on what you have seen or heard, you...",
+            "options": [
+                "split hairs",
+                "take stock",
+                "put two and two together",
+                "ring a bell"
+            ],
+            "correctIndex": 2,
+            "explanation": "To 'put two and two together' is to figure something out from obvious clues."
+        },
+        {
+            "question": "If it takes someone a very long time to understand or realise something, they are...",
+            "options": [
+                "in the dark",
+                "round the bend",
+                "without a leg to stand on",
+                "slow on the uptake"
+            ],
+            "correctIndex": 3,
+            "explanation": "Being 'slow on the uptake' means taking a long time to grasp an idea."
+        },
+        {
+            "question": "If a name or a face sounds familiar but you can't remember the exact details, it...",
+            "options": [
+                "rings a bell",
+                "splits hairs",
+                "goes to your head",
+                "knows what's what"
+            ],
+            "correctIndex": 0,
+            "explanation": "If something 'rings a bell', it triggers a vague memory."
+        },
+        {
+            "question": "If something is driving you 'round the bend', it is driving you...",
+            "options": [
+                "to success",
+                "to take stock",
+                "crazy",
+                "to split hairs"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Round the bend' is an informal idiom meaning crazy or insane."
+        },
+        {
+            "question": "To argue or worry about very small details or differences that are not important is to...",
+            "options": [
+                "put two and two together",
+                "split hairs",
+                "take stock",
+                "ring a bell"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Split hairs' means making unnecessary distinctions or arguing over petty details."
+        },
+        {
+            "question": "Before deciding on your next career move, you should pause and ________ of your current situation.",
+            "options": [
+                "split hairs",
+                "take stock",
+                "have your wits",
+                "put two and two together"
+            ],
+            "correctIndex": 1,
+            "explanation": "To 'take stock (of)' means to carefully think about a situation before making a decision."
+        },
+        {
+            "question": "Which of the following is the correct noun form of 'assume'?",
+            "options": [
+                "assumation",
+                "assuming",
+                "assumption",
+                "assument"
+            ],
+            "correctIndex": 2,
+            "explanation": "The noun form of 'assume' is 'assumption'."
         },
         {
             "question": "Choose the correct negative adjective form of 'conceive':",
             "options": [
-                "disconceivable",
                 "unconceivable",
+                "disconceivable",
                 "inconceivable",
                 "nonconceivable"
             ],
             "correctIndex": 2,
-            "explanation": "The correct form is 'inconceivable' according to the word formation rules."
-        },
-        {
-            "question": "What does the idiom 'split hairs' mean?",
-            "options": [
-                "To get a haircut before an exam",
-                "To argue about very small, unimportant details",
-                "To be unable to make a decision",
-                "To go crazy"
-            ],
-            "correctIndex": 1,
-            "explanation": "'Split hairs' means to argue or worry about very small details or differences that are not important."
-        },
-        {
-            "question": "Which phrasal verb means 'to understand and remember something that you hear or read'?",
-            "options": [
-                "take in",
-                "read up",
-                "figure out",
-                "make out"
-            ],
-            "correctIndex": 0,
-            "explanation": "'Take in' means to understand and remember something you hear or read."
-        },
-        {
-            "question": "Complete the idiom: His recent promotion has really gone to his _______.",
-            "options": [
-                "brain",
-                "mind",
-                "head",
-                "sense"
-            ],
-            "correctIndex": 2,
-            "explanation": "If success 'goes to your head', it makes you think you are more important than you really are."
-        },
-        {
-            "question": "Complete the phrasal verb: I need some time to _______ over your proposal.",
-            "options": [
-                "think",
-                "mull",
-                "puzzle",
-                "piece"
-            ],
-            "correctIndex": 1,
-            "explanation": "'Mull over' means to think carefully about something over a period of time. ('Think over' is also valid, but 'mull' is specifically listed in the options and fits the pattern perfectly)."
+            "explanation": "The correct negative prefix for 'conceivable' is 'in-', making it 'inconceivable'."
         },
         {
             "question": "What is the noun form of 'sane'?",
             "options": [
                 "saneness",
-                "sanitation",
                 "sanity",
+                "sanitation",
                 "sanitary"
             ],
+            "correctIndex": 1,
+            "explanation": "The noun representing the state of being sane is 'sanity' (or 'insanity' for the opposite)."
+        },
+        {
+            "question": "Which word is an adjective formed from 'opinion' meaning 'having strong opinions and refusing to change them'?",
+            "options": [
+                "opinionated",
+                "opinionative",
+                "opinional",
+                "opinioning"
+            ],
+            "correctIndex": 0,
+            "explanation": "An 'opinionated' person is very certain about their beliefs and expresses them strongly."
+        },
+        {
+            "question": "Complete the sentence with the correct form of 'explain': His sudden disappearance is completely ________.",
+            "options": [
+                "unexplicable",
+                "inexplicable",
+                "disexplicable",
+                "nonexplicable"
+            ],
+            "correctIndex": 1,
+            "explanation": "The correct adjective meaning 'unable to be explained' is 'inexplicable'."
+        },
+        {
+            "question": "Which of the following is a noun formed from the verb 'judge'?",
+            "options": [
+                "judgness",
+                "judiciary",
+                "judgingly",
+                "judicious"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Judiciary' is a noun referring to the judges of a country. ('Judg(e)ment' is another noun form)."
+        },
+        {
+            "question": "Choose the correct adjective formed from 'sense' that means 'ridiculous or having no meaning':",
+            "options": [
+                "senseless",
+                "nonsensical",
+                "unsensible",
+                "dissensitive"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Nonsensical' means ridiculous or making no sense. ('Senseless' usually means without purpose or unconscious)."
+        },
+        {
+            "question": "What is the correct adverb form of 'doubt' meaning 'certainly or without doubt'?",
+            "options": [
+                "doubtfully",
+                "undoubting",
+                "doubtless",
+                "doubtingly"
+            ],
             "correctIndex": 2,
-            "explanation": "The noun form of sane is 'sanity' (or 'insanity' for the negative form)."
+            "explanation": "'Doubtless' acts as an adverb meaning 'almost certainly' or 'without doubt' (alongside 'undoubtedly')."
+        },
+        {
+            "question": "Complete the sentence with the correct negative form of 'convince': The suspect gave a very ________ excuse.",
+            "options": [
+                "unconvincing",
+                "inconvincing",
+                "disconvincing",
+                "unconvinced"
+            ],
+            "correctIndex": 0,
+            "explanation": "The correct negative adjective for something that fails to make you believe it is 'unconvincing'."
+        },
+        {
+            "question": "What is the noun form of the adjective 'wise'?",
+            "options": [
+                "wiseness",
+                "wisely",
+                "wisdom",
+                "wizardry"
+            ],
+            "correctIndex": 2,
+            "explanation": "The noun form of 'wise' is 'wisdom'."
         }
     ]
 }
