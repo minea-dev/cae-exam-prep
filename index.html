@@ -131,10 +131,10 @@
         // --- 1. BOOTSTRAP ---
         window.onload = async () => {
             try {
-                const response = await fetch('temas.json');
+                const response = await fetch('data/temas.json'); 
                 topicsCatalog = await response.json();
             } catch (error) {
-                alert("Error loading temas.json. Make sure you are running this on a server (Live Server, Netlify, etc.).");
+                alert("Error loading data/temas.json. Make sure you are running this on a server (Live Server, Netlify, etc.).");
             }
         };
 
