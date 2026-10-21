@@ -85,12 +85,12 @@
         <div id="view-test-config" class="hidden">
             <button onclick="showMenu()" class="text-red-700 mb-4 font-bold">&larr; Back</button>
             <h2 class="text-xl font-bold mb-4">Configure Exam</h2>
-            <p class="text-sm text-gray-600 mb-4">Select the topics you want to include in the practice exam.</p>
+            <p class="text-sm text-gray-600 mb-4">Select 1 topic for a full review, or multiple topics for a 30-question mixed mock exam.</p>
             <div id="test-topics-list" class="space-y-2 mb-6 bg-white p-4 rounded-xl shadow">
                 <!-- Injected via JS -->
             </div>
-            <button onclick="startTest()" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 rounded-lg shadow">
-                Start Exam (30 Questions)
+            <button id="btn-start-test" onclick="startTest()" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 rounded-lg shadow disabled:opacity-50 disabled:cursor-not-allowed">
+                Start Exam
             </button>
         </div>
 
@@ -204,7 +204,7 @@
             if (studyIndex > 0) { studyIndex--; renderStudyCard(); }
         }
 
-        // --- EXAM MODE ---
+       // --- EXAM MODE ---
         function loadTestMenu() {
             hideAllViews();
             const list = document.getElementById('test-topics-list');
@@ -214,31 +214,77 @@
                 if(!topic.active) return;
                 const label = document.createElement('label');
                 label.className = "flex items-center space-x-3 p-3 border-b border-gray-100 last:border-0 cursor-pointer";
+                // Añadido onchange="updateTestButtonText()"
                 label.innerHTML = `
-                    <input type="checkbox" checked id="chk-${i}" class="w-5 h-5 text-green-600 rounded focus:ring-green-500" value="${topic.file}">
+                    <input type="checkbox" onchange="updateTestButtonText()" checked id="chk-${i}" class="w-5 h-5 text-green-600 rounded focus:ring-green-500" value="${topic.file}">
                     <span class="font-medium text-gray-700">${topic.title}</span>
                 `;
                 list.appendChild(label);
             });
             document.getElementById('view-test-config').classList.remove('hidden');
+            updateTestButtonText(); // Inicializa el texto del botón al cargar
+        }
+
+        // Nueva función para actualizar el texto del botón según la selección
+        function updateTestButtonText() {
+            const checkboxes = document.querySelectorAll('#test-topics-list input[type="checkbox"]:checked');
+            const btn = document.getElementById('btn-start-test');
+            
+            if (!btn) return; // Por si acaso no le pusiste el id al botón en el HTML
+            
+            if (checkboxes.length === 0) {
+                btn.innerText = "Select at least one topic";
+                btn.disabled = true;
+            } else if (checkboxes.length === 1) {
+                btn.innerText = "Start Exam (All Topic Questions)";
+                btn.disabled = false;
+            } else {
+                btn.innerText = "Start Exam (30 Random Questions Mix)";
+                btn.disabled = false;
+            }
         }
 
         async function startTest() {
             const checkboxes = document.querySelectorAll('#test-topics-list input[type="checkbox"]:checked');
             if(checkboxes.length === 0) return alert("Select at least one topic!");
 
-            let allQuestions = [];
+            let topicPools = [];
 
+            // 1. Cargar las preguntas y separarlas por tema
             for (let chk of checkboxes) {
                 const res = await fetch(chk.value);
                 const data = await res.json();
-                const questionsWithTopic = data.test.map(q => ({...q, _topicTitle: data.title}));
-                allQuestions = allQuestions.concat(questionsWithTopic);
+                
+                // Añadir el título del tema a cada pregunta y desordenar ese bloque
+                let questions = data.test.map(q => ({...q, _topicTitle: data.title}));
+                questions = questions.sort(() => Math.random() - 0.5); 
+                topicPools.push(questions);
             }
 
-            // Shuffle and select max 30 questions
-            allQuestions = allQuestions.sort(() => Math.random() - 0.5);
-            currentExamQuestions = allQuestions.slice(0, 30);
+            let finalQuestions = [];
+
+            // 2. Lógica de selección según la cantidad de temas marcados
+            if (checkboxes.length === 1) {
+                // Si es 1 tema: metemos todas sus preguntas
+                finalQuestions = topicPools[0];
+            } else {
+                // Si es >1 tema: extraemos 1 de cada tema de forma circular hasta llegar a 30
+                let keepPulling = true;
+                while (finalQuestions.length < 30 && keepPulling) {
+                    keepPulling = false;
+                    for (let i = 0; i < topicPools.length; i++) {
+                        if (finalQuestions.length >= 30) break; // Tope de 30 preguntas
+                        if (topicPools[i].length > 0) {
+                            finalQuestions.push(topicPools[i].pop());
+                            keepPulling = true; 
+                        }
+                    }
+                }
+                // Mezclamos el mix final para que no salgan ordenadas por tema
+                finalQuestions = finalQuestions.sort(() => Math.random() - 0.5);
+            }
+
+            currentExamQuestions = finalQuestions;
             examIndex = 0;
             examScore = 0;
 
