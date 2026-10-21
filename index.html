@@ -125,6 +125,20 @@
             </div>
         </div>
 
+        <!-- EXAM RESULTS SCREEN -->
+        <div id="view-exam-results" class="hidden text-center bg-white p-8 rounded-xl shadow-md border-t-4 border-green-500">
+            <h2 class="text-3xl font-bold mb-2">Exam Finished!</h2>
+            <p class="text-gray-600 mb-6">Here is your final score:</p>
+            
+            <div id="exam-final-score" class="text-6xl font-extrabold text-green-600 mb-8">
+                27 / 30
+            </div>
+            
+            <button onclick="showMenu()" class="w-full bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 rounded-lg shadow">
+                Return to Main Menu
+            </button>
+        </div>
+
     </div>
 
     <script>
@@ -320,8 +334,20 @@
 
         function renderExamQuestion() {
             if(examIndex >= currentExamQuestions.length) {
-                alert(`Exam finished! Score: ${examScore} out of ${currentExamQuestions.length}.`);
-                showMenu();
+                // Show final results screen instead of alert
+                hideAllViews();
+                document.getElementById('exam-final-score').innerText = `${examScore} / ${currentExamQuestions.length}`;
+                
+                // Optional: change color based on pass/fail
+                const scoreDiv = document.getElementById('exam-final-score');
+                const ratio = examScore / currentExamQuestions.length;
+                if (ratio >= 0.6) {
+                    scoreDiv.className = "text-6xl font-extrabold text-green-600 mb-8";
+                } else {
+                    scoreDiv.className = "text-6xl font-extrabold text-red-600 mb-8";
+                }
+
+                document.getElementById('view-exam-results').classList.remove('hidden');
                 return;
             }
 
@@ -362,7 +388,11 @@
             }
 
             const feedbackBox = document.getElementById('exam-feedback');
-            feedbackBox.classList.remove('hidden');
+            
+            // CLEAN PREVIOUS COLORS BEFORE ADDING THE NEW ONE
+            feedbackBox.classList.remove('hidden', 'bg-green-50', 'bg-red-50');
+            
+            // ADD THE CORRECT NEW COLOR
             feedbackBox.classList.add(selectedIndex === correctIndex ? 'bg-green-50' : 'bg-red-50');
 
             document.getElementById('exam-explanation').innerHTML = `
